@@ -7,16 +7,21 @@
   <img
     src="/logo.png"
     alt=""
-    class="absolute inset-0 w-full h-full object-cover blur-md opacity-50 scale-110 pointer-events-none"
+    class="absolute inset-0 w-full h-full object-cover blur-sm md:blur-md opacity-50 scale-105 md:scale-110 pointer-events-none"
   />
 
   <!-- Título -->
-  <h1 class="relative z-10 text-4xl md:text-6xl font-bold text-white drop-shadow-lg animate-titleGlow">
+  <h1
+    class="relative z-10 text-2xl sm:text-3xl md:text-5xl lg:text-6xl font-bold text-white drop-shadow-lg animate-titleGlow text-center px-4"
+  >
     🚧 Página en desarrollo 🚧
   </h1>
 
   <!-- Abeja -->
-  <img #bee src="/abeja.png" alt="Abeja"
-       class="absolute z-20 pointer-events-none select-none w-20 md:w-24 lg:w-28"
-       style="transform: translate3d(50vw,50vh,0);" />
+  <img
+    src="/abeja.png"
+    alt="Abeja"
+    class="absolute z-20 pointer-events-none select-none w-16 sm:w-20 md:w-24 lg:w-28 transition-transform duration-500"
+    style="transform: translate3d(50%,50%,0);"
+  />
 </div>
